@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/StarWars/.vs/StarWars/v17
+/.vs
+/StarWars/StarWars/bin/Debug/net6.0
+/StarWars/StarWars/obj
+/StarWars/StarWars/appsettings.Development.json
+/StarWars/.vs/StarWars/DesignTimeBuild
