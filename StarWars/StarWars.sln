@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars", "StarWars\StarWars.csproj", "{357E4FB2-A876-4F2D-B9F2-B66A2C3A8DB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars", "StarWars\StarWars.csproj", "{357E4FB2-A876-4F2D-B9F2-B66A2C3A8DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsTests", "StarWarsTests\StarWarsTests.csproj", "{92A8CCE8-FF50-4C2A-87BA-94C6CEADC2A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project Files", "Project Files", "{206025B0-45ED-45FC-94C9-D0D160355935}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{357E4FB2-A876-4F2D-B9F2-B66A2C3A8DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{357E4FB2-A876-4F2D-B9F2-B66A2C3A8DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{357E4FB2-A876-4F2D-B9F2-B66A2C3A8DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A8CCE8-FF50-4C2A-87BA-94C6CEADC2A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A8CCE8-FF50-4C2A-87BA-94C6CEADC2A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A8CCE8-FF50-4C2A-87BA-94C6CEADC2A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A8CCE8-FF50-4C2A-87BA-94C6CEADC2A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

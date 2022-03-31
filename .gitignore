@@ -8,3 +8,8 @@
 /StarWars/StarWars/obj
 /StarWars/StarWars/appsettings.Development.json
 /StarWars/.vs/StarWars/DesignTimeBuild
+/StarWars/StarWars/bin/Release/net6.0
+/StarWars/StarWarsTests/bin
+/StarWars/StarWarsTests/obj
+/StarWars/StarWars/Properties/PublishProfiles
+/StarWars/StarWars/Properties/ServiceDependencies/StarWarsDemo123 - Web Deploy

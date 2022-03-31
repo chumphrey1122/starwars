@@ -1,6 +1,7 @@
 using Microsoft.Net.Http.Headers;
 using StarWars.Interfaces;
 using StarWars.Services;
+using StarWars.Swapi;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddSingleton<ISwapiService, StandardSwapiService>();
+builder.Services.AddSingleton<IStarWarsCalculationService, StandardStarWarsCalculationService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -20,11 +22,9 @@ builder.Services.AddHttpClient("swapi", httpClient =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
+
 
 app.UseHttpsRedirection();
 

@@ -1,14 +1,18 @@
 ﻿namespace StarWars.Models
 {
+    /// <summary>
+    /// Represents a planet
+    /// </summary>
     public class Planet
     {
+        /// <summary>
+        /// The full name of the planet
+        /// </summary>
         public string Name { get; set; }
 
-        public string Population { get; set; }
-
-        public long PopulationAsLong()
-        {
-            return long.TryParse(Population, out var population) ? population : 0;
-        }
+        /// <summary>
+        /// Population of the planet, or null if unknown
+        /// </summary>
+        public long? Population { get; set; }
     }
 }
